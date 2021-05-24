@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.titulo{ 
+  font-size: 2.00em;
+  text-align: center;
+  font-family: 'Zen Dots', cursive;
+  color: aliceblue;
+}
+
+form {
+  display: flex;
+  flex-flow: column;
+  width: 300px;
+  height: 470px;
+  background-color: rgb(7, 18, 56);
+  border: 3px solid black;
+  padding: 30px;
+  border-radius: 10px;
+  
+}
+
+label {
+  font-family: 'Domine', serif; 
+  display: flex;
+  flex-direction: column;
+  font-size: 1.20em;
+  color: white;
+  margin-top: 10px;
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 30px;
+  border-radius: 50px;
+  margin-top: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+button {
+  border-radius: 50px;
+  font-family: 'Zen Dots', cursive;
+  font-size: 1.00em;
+  width: 250px;
+  height: 50px;
+  margin-top: 40px;
+  
+}
+a {
+  outline: none;
+  color: white;
+  margin-top: 10px;
+  font-family: 'Fredoka One', cursive;
+}
+
+form .linha {
+  display: flex;
+  flex-flow: column; /* column = form vertical, row = form horizontal */
+  align-items: center;
+}
